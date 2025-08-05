@@ -50,22 +50,22 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="text-sm text-gray-400 mb-4">02</div>
           <div className="w-full h-px bg-white mb-12"></div>
-          <h2 className="text-2xl mb-16">Команда</h2>
+          <h2 className="text-2xl mb-16">Команда и проекты</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            <div className="bg-gray-900/50 p-8 rounded-lg backdrop-blur">
+            <div className="bg-black p-8 rounded-lg">
               <div className="text-6xl font-bold mb-4">40+</div>
               <p className="text-gray-300">компаний из рейтинга РБК 500</p>
             </div>
-            <div className="bg-gray-900/50 p-8 rounded-lg backdrop-blur">
+            <div className="bg-black p-8 rounded-lg">
               <div className="text-6xl font-bold mb-4">22 000+</div>
               <p className="text-gray-300">ИТ-специалистов в партнерской сети SkillStaff из РФ и СНГ</p>
             </div>
-            <div className="bg-gray-900/50 p-8 rounded-lg backdrop-blur">
+            <div className="bg-black p-8 rounded-lg">
               <div className="text-6xl font-bold mb-4">400+</div>
               <p className="text-gray-300">реализованных проектов</p>
             </div>
-            <div className="bg-gray-900/50 p-8 rounded-lg backdrop-blur">
+            <div className="bg-black p-8 rounded-lg">
               <div className="text-6xl font-bold mb-4">10</div>
               <p className="text-gray-300">лет экспертизы ИТ в сфере ритейла</p>
             </div>
