@@ -129,36 +129,124 @@ export default function Index() {
           <div className="w-full h-px bg-black mb-12"></div>
           <h2 className="text-2xl mb-16">Достижения</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-              <ul className="space-y-4">
-                <li>ТОП-5 премии Tagline Awards 2023 в пяти номинациях</li>
-                <li>35 место в рейтинге CNews крупнейших поставщиков ИТ в розницу 2024</li>
-                <li>ТОП-100 лучших ИТ-работодателей в рейтинге от HH.ru</li>
-                <li>ТОП-15 рейтинга Хабр Карьера</li>
-                <li>1 место рейтинга Рунета 2024 Диджитал-подрядчик крупнейших компаний по консалтингу</li>
-                <li>1 место рейтинга Рунета 2024 Разработчик интернет-магазинов для отраслей «Украшения» и «Мебель»</li>
-              </ul>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-6">
+              <div className="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-lg border-l-4 border-yellow-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Trophy" size={20} className="text-yellow-600" />
+                  <span className="font-bold text-yellow-800">ТОП-5</span>
+                </div>
+                <p className="text-gray-700">премии Tagline Awards 2023 в пяти номинациях</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-blue-50 to-cyan-50 p-6 rounded-lg border-l-4 border-blue-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Award" size={20} className="text-blue-600" />
+                  <span className="font-bold text-blue-800">35 место</span>
+                </div>
+                <p className="text-gray-700">в рейтинге CNews крупнейших поставщиков ИТ в розницу 2024</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 p-6 rounded-lg border-l-4 border-green-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Star" size={20} className="text-green-600" />
+                  <span className="font-bold text-green-800">ТОП-100</span>
+                </div>
+                <p className="text-gray-700">лучших ИТ-работодателей в рейтинге от HH.ru</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-purple-50 to-violet-50 p-6 rounded-lg border-l-4 border-purple-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Medal" size={20} className="text-purple-600" />
+                  <span className="font-bold text-purple-800">ТОП-15</span>
+                </div>
+                <p className="text-gray-700">рейтинга Хабр Карьера</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-red-50 to-pink-50 p-6 rounded-lg border-l-4 border-red-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Crown" size={20} className="text-red-600" />
+                  <span className="font-bold text-red-800">1 место</span>
+                </div>
+                <p className="text-gray-700">рейтинга Рунета 2024 Диджитал-подрядчик крупнейших компаний по консалтингу</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-indigo-50 to-blue-50 p-6 rounded-lg border-l-4 border-indigo-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Crown" size={20} className="text-indigo-600" />
+                  <span className="font-bold text-indigo-800">1 место</span>
+                </div>
+                <p className="text-gray-700">рейтинга Рунета 2024 Разработчик интернет-магазинов для отраслей «Украшения» и «Мебель»</p>
+              </div>
             </div>
-            <div>
-              <ul className="space-y-4">
-                <li>ТОП-5 рейтинга Рунета 2024 Поддержка и развитие сайтов в сфере электронной коммерции</li>
-                <li>1 место конкурса «Золотой Сайт» Сервис, портал в области строительства и недвижимости</li>
-                <li>2 место в Кубковом рейтинге диджитал-интеграторов 2024</li>
-                <li>2 место премии Ruward Award 2025 Отраслевая экспертиза/электронная коммерция</li>
-                <li>4-х кратный обладатель премии «Большой оборот»</li>
-              </ul>
+            
+            <div className="space-y-6">
+              <div className="bg-gradient-to-r from-teal-50 to-cyan-50 p-6 rounded-lg border-l-4 border-teal-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Trophy" size={20} className="text-teal-600" />
+                  <span className="font-bold text-teal-800">ТОП-5</span>
+                </div>
+                <p className="text-gray-700">рейтинга Рунета 2024 Поддержка и развитие сайтов в сфере электронной коммерции</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-amber-50 to-yellow-50 p-6 rounded-lg border-l-4 border-amber-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Crown" size={20} className="text-amber-600" />
+                  <span className="font-bold text-amber-800">1 место</span>
+                </div>
+                <p className="text-gray-700">конкурса «Золотой Сайт» Сервис, портал в области строительства и недвижимости</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-rose-50 to-red-50 p-6 rounded-lg border-l-4 border-rose-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Medal" size={20} className="text-rose-600" />
+                  <span className="font-bold text-rose-800">2 место</span>
+                </div>
+                <p className="text-gray-700">в Кубковом рейтинге диджитал-интеграторов 2024</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-emerald-50 to-green-50 p-6 rounded-lg border-l-4 border-emerald-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Medal" size={20} className="text-emerald-600" />
+                  <span className="font-bold text-emerald-800">2 место</span>
+                </div>
+                <p className="text-gray-700">премии Ruward Award 2025 Отраслевая экспертиза/электронная коммерция</p>
+              </div>
+              
+              <div className="bg-gradient-to-r from-violet-50 to-purple-50 p-6 rounded-lg border-l-4 border-violet-400">
+                <div className="flex items-center gap-3 mb-2">
+                  <Icon name="Award" size={20} className="text-violet-600" />
+                  <span className="font-bold text-violet-800">4-х кратный</span>
+                </div>
+                <p className="text-gray-700">обладатель премии «Большой оборот»</p>
+              </div>
             </div>
           </div>
 
           <div className="mt-16 pt-16 border-t border-gray-200">
-            <ul className="space-y-4">
-              <li>Член Российской ассоциации электронных коммуникаций</li>
-              <li>Член Ассоциации менеджеров России</li>
-              <li>Авторы ИТ-курсов Skillbox</li>
-              <li>Аккредитация Минкомсвязи РФ</li>
-              <li>Резидент Сколково</li>
-            </ul>
+            <h3 className="text-xl font-bold mb-8 text-center">Членство и аккредитации</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <Icon name="Building" size={24} className="mx-auto mb-3 text-gray-600" />
+                <p className="font-semibold">Член Российской ассоциации электронных коммуникаций</p>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <Icon name="Users" size={24} className="mx-auto mb-3 text-gray-600" />
+                <p className="font-semibold">Член Ассоциации менеджеров России</p>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <Icon name="BookOpen" size={24} className="mx-auto mb-3 text-gray-600" />
+                <p className="font-semibold">Авторы ИТ-курсов Skillbox</p>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg text-center">
+                <Icon name="Shield" size={24} className="mx-auto mb-3 text-gray-600" />
+                <p className="font-semibold">Аккредитация Минкомсвязи РФ</p>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg text-center md:col-span-2">
+                <Icon name="Zap" size={24} className="mx-auto mb-3 text-gray-600" />
+                <p className="font-semibold">Резидент Сколково</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
