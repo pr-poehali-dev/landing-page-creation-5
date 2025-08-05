@@ -10,15 +10,22 @@ export default function Index() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold">AWG</div>
-            <div className="hidden md:flex space-x-8">
-              <a href="#home" className="hover:text-gray-300 transition-colors">Главная</a>
-              <a href="#clients" className="hover:text-gray-300 transition-colors">Клиенты</a>
-              <a href="#achievements" className="hover:text-gray-300 transition-colors">Достижения</a>
-              <a href="#technologies" className="hover:text-gray-300 transition-colors">Технологии</a>
-              <a href="#process" className="hover:text-gray-300 transition-colors">Этапы работы</a>
-              <a href="#team" className="hover:text-gray-300 transition-colors">Команда</a>
-              <a href="#cases" className="hover:text-gray-300 transition-colors">Кейсы</a>
-              <a href="#contacts" className="hover:text-gray-300 transition-colors">Контакты</a>
+            <div className="hidden md:flex space-x-4 items-center">
+              <a href="#home" className="hover:text-gray-300 transition-colors whitespace-nowrap">Главная</a>
+              <span className="text-gray-500">/</span>
+              <a href="#clients" className="hover:text-gray-300 transition-colors whitespace-nowrap">Клиенты</a>
+              <span className="text-gray-500">/</span>
+              <a href="#achievements" className="hover:text-gray-300 transition-colors whitespace-nowrap">Достижения</a>
+              <span className="text-gray-500">/</span>
+              <a href="#technologies" className="hover:text-gray-300 transition-colors whitespace-nowrap">Технологии</a>
+              <span className="text-gray-500">/</span>
+              <a href="#process" className="hover:text-gray-300 transition-colors whitespace-nowrap">Этапы работы</a>
+              <span className="text-gray-500">/</span>
+              <a href="#team" className="hover:text-gray-300 transition-colors whitespace-nowrap">Команда</a>
+              <span className="text-gray-500">/</span>
+              <a href="#cases" className="hover:text-gray-300 transition-colors whitespace-nowrap">Кейсы</a>
+              <span className="text-gray-500">/</span>
+              <a href="#contacts" className="hover:text-gray-300 transition-colors whitespace-nowrap">Контакты</a>
             </div>
             <Button variant="outline" className="border-white text-white hover:bg-white hover:text-black">
               Связаться
@@ -54,25 +61,25 @@ export default function Index() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             <div className="bg-black p-8 rounded-lg">
-              <div className="text-6xl font-bold mb-4">40+</div>
-              <p className="text-gray-300">компаний из рейтинга РБК 500</p>
+              <div className="text-6xl font-bold mb-4 whitespace-nowrap">40+</div>
+              <p className="text-gray-300">компаний из рейтинга РБК&nbsp;500</p>
             </div>
             <div className="bg-black p-8 rounded-lg">
-              <div className="text-6xl font-bold mb-4">22 000+</div>
-              <p className="text-gray-300">ИТ-специалистов в партнерской сети SkillStaff из РФ и СНГ</p>
+              <div className="text-6xl font-bold mb-4 whitespace-nowrap">22&nbsp;000+</div>
+              <p className="text-gray-300">ИТ-специалистов в партнерской сети SkillStaff из РФ и&nbsp;СНГ</p>
             </div>
             <div className="bg-black p-8 rounded-lg">
-              <div className="text-6xl font-bold mb-4">400+</div>
+              <div className="text-6xl font-bold mb-4 whitespace-nowrap">400+</div>
               <p className="text-gray-300">реализованных проектов</p>
             </div>
             <div className="bg-black p-8 rounded-lg">
-              <div className="text-6xl font-bold mb-4">10</div>
+              <div className="text-6xl font-bold mb-4 whitespace-nowrap">10</div>
               <p className="text-gray-300">лет экспертизы ИТ в сфере ритейла</p>
             </div>
           </div>
 
           <p className="text-3xl md:text-4xl max-w-4xl">
-            Разрабатываем и внедряем сложные проекты для крупного бизнеса.
+            Разрабатываем и&nbsp;внедряем сложные проекты для&nbsp;крупного бизнеса.
           </p>
         </div>
       </section>
