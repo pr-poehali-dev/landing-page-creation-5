@@ -262,6 +262,7 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="text-sm text-gray-400 mb-4">16</div>
           <div className="w-full h-px bg-white mb-12"></div>
+          <h2 className="text-2xl mb-16">Команда и проекты</h2>
           
           <div className="mb-16">
             <div className="text-6xl font-bold mb-8 max-w-4xl">
@@ -329,16 +330,16 @@ export default function Index() {
           </div>
 
           <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-10 gap-4 items-center opacity-60">
-            <div className="bg-gray-200 text-black px-3 py-2 rounded-full text-xs text-center">Леруа</div>
-            <div className="bg-red-500 text-white px-3 py-2 rounded-full text-xs text-center">М.ВИДЕО</div>
-            <div className="bg-blue-600 text-white px-3 py-2 rounded-full text-xs text-center">ВТБ</div>
-            <div className="bg-red-600 text-white px-3 py-2 rounded-full text-xs text-center">МТС</div>
-            <div className="bg-green-500 text-white px-3 py-2 rounded-full text-xs text-center">СБЕР</div>
-            <div className="bg-orange-500 text-white px-3 py-2 rounded-full text-xs text-center">DNS</div>
-            <div className="bg-red-500 text-white px-3 py-2 rounded-full text-xs text-center">HOFF</div>
-            <div className="bg-gray-800 text-white px-3 py-2 rounded-full text-xs text-center">OZON</div>
-            <div className="bg-blue-500 text-white px-3 py-2 rounded-full text-xs text-center">ВЭБ</div>
-            <div className="bg-green-600 text-white px-3 py-2 rounded-full text-xs text-center">Аcer</div>
+            <div className="text-white text-xs text-center">Леруа</div>
+            <div className="text-white text-xs text-center">М.ВИДЕО</div>
+            <div className="text-white text-xs text-center">ВТБ</div>
+            <div className="text-white text-xs text-center">МТС</div>
+            <div className="text-white text-xs text-center">СБЕР</div>
+            <div className="text-white text-xs text-center">DNS</div>
+            <div className="text-white text-xs text-center">HOFF</div>
+            <div className="text-white text-xs text-center">OZON</div>
+            <div className="text-white text-xs text-center">ВЭБ</div>
+            <div className="text-white text-xs text-center">Аcer</div>
           </div>
         </div>
       </section>
